@@ -9,10 +9,7 @@ public class App {
         }
 
         // do while
-        // inicializacion
     } */
 
-
-    
     }
 }
