@@ -27,20 +27,18 @@ public class App {
             System.out.println("Eres jubilado");
         }
 
-        
-
-        /* 
-        if (edad == 1) {
-            ///
-        }else if (edad == 10) {
-            ///
-        }else if (edad == 20) {
-            ///
-        }else if  {
-            ///
-        }
-        */
-        String mensaje ;
+        /*
+         * if (edad == 1) {
+         * ///
+         * }else if (edad == 10) {
+         * ///
+         * }else if (edad == 20) {
+         * ///
+         * }else if {
+         * ///
+         * }
+         */
+        String mensaje;
         switch (edad) {
             case 1:
                 mensaje = "Edad 1";
@@ -53,14 +51,11 @@ public class App {
                 break;
         }
 
-
         var letra = switch (edad) {
             case 1 -> "Tiene un año";
             case 2 -> "Tiene diez años";
             default -> "¡¡¡Edad desconocida!!!";
         };
-
-
 
         System.out.println("Fin del programa");
 
