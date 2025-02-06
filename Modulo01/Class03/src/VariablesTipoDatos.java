@@ -1,7 +1,7 @@
 public class VariablesTipoDatos {
     public static void main(String[] args) {
         /* 
-        var scanner = new java.util.Scanner(System.in);
+        var scanner = new Scanner(System.in);
         System.out.print("Ingresa tu nombre: ");
         var text = scanner.nextLine();
         System.out.println("Hola " + text + "!");
