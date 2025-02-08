@@ -25,7 +25,12 @@ Resumen: El orden de operaciones en programaci처n es crucial, y en esta expresi�
 
 public class Ejercicio01 {
     public static void main(String[] args) {
-        double resultado = 6 / 2 * (1 + 2);
+        // Operaci처n 6 / 2 * (1 + 2)
+        var resultado = 6 / 2 * (1 + 2);
+        // Operaci처nMal 6 / (2 * (1 + 2))
+        var resultadoMal = 6 / (2 * (1 + 2));
         System.out.println("El resultado correcto de la operaci처n '6 / 2 * (1 + 2)' es: " + resultado);
+        System.out.println("El resultado incorrecto de la operaci처n '6 / (2 * (1 + 2))' es: " + resultadoMal);
+        
     }
 }
