@@ -2,11 +2,17 @@ import java.util.Scanner;
 
 public class Ejercicio05 {
     public static void main(String[] args) {
+        /*
+         * Ejercicio 5
+         * Escriba un programa que permita ingresar una letra e identifique si es vocal
+         * o consonante.
+         */
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar al usuario que ingrese una letra
         System.out.print("Ingrese una letra: ");
-        char letra = scanner.next().toLowerCase().charAt(0); // Convertir a minúscula para evitar diferencias entre mayúsculas y minúsculas
+        char letra = scanner.next().toLowerCase().charAt(0); // Convertir a minúscula para evitar diferencias entre
+                                                             // mayúsculas y minúsculas
 
         // Verificar si es una letra del alfabeto
         if (Character.isLetter(letra)) {

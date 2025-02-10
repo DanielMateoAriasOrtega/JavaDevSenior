@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class Ejercicio02 {
     public static void main(String[] args) {
+        /*
+         * Ejercicio 2
+         * Escriba un programa que le permita ingresar tres números e imprima en la
+         * consola el más grande de ellos.
+         */
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese tres números: ");

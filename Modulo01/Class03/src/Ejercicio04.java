@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class Ejercicio04 {
     public static void main(String[] args) {
+        /*
+         * Ejercicio 4
+         * Escriba un programa que permita ingresar una letra e identifique si la letra
+         * es mayúscula o minúscula. con comnetarios
+         */
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar al usuario que ingrese una letra

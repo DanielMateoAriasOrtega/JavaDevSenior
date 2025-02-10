@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Ejercicio06 {
+    /*
+     * Ejercicio 6
+     * Escriba un programa que permita ingresar un número y determine si es
+     * divisible por dos y siete.
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

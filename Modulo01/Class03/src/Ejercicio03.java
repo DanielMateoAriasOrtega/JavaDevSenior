@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Ejercicio03 {
+    /*
+     * Ejercicio 3
+     * Escriba un programa que permita ingresar un número e identificar si es par o
+     * impar.
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
