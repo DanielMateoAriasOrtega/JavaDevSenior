@@ -6,7 +6,7 @@ public class Expresiones {
         var num2 = -5;
         var num3 = num1 + num2;
         var num4 = 40 - num3;
-        System.out.println(num3);
+        System.out.println(num4);
 
         /*
 
