@@ -8,6 +8,13 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "Turoria.App",
+            "projectName": "JavaDevSenior_dc947e3f"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "App",
             "projectName": "JavaDevSenior_dc947e3f"
         },

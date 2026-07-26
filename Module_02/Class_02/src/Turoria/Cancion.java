@@ -1,3 +1,4 @@
+package Turoria;
 public class Cancion {
     // Atributos de la clase Cancion
     int id;
@@ -82,5 +83,13 @@ public class Cancion {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public boolean isValidArtista() {
+        // Verificar si el artista es válido (no nulo y no vacío)
+        // setArtista(artista);
+        // Retornar true si el artista es válido, de lo contrario false
+        return artista != null && !artista.trim().isEmpty();
+    }
+
 
 }
